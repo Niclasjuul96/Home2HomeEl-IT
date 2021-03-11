@@ -105,14 +105,16 @@ body {
     grid-template-columns: auto auto;
     grid-template-rows: auto;
 }
+
 .gridbodyPriser1 {
     grid-column-start: 1;
     grid-column-end: 10;
     min-width: 49.5%;
     max-width: 49.5%;
-    background-color: whitesmoke;
+    background-color: white;
     display: inline-block;
     text-align: center;
+    margin: auto;
 }
 
 .gridbodyPriser2 {
@@ -120,12 +122,11 @@ body {
     grid-column-end: 20;
     min-width: 49.5%;
     max-width: 49.5%;
-    background-color: whitesmoke;
+    background-color: white;
     display: inline-block;
     text-align: center;
+    margin: auto;
 }
-
-
 
 div div {
     display: block;

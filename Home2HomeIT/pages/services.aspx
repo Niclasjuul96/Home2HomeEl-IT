@@ -14,6 +14,7 @@
 
 
                 <div class="gridbodyServices">
+
                     <div class="gridbodyPriser1">
             
                         <strong>Pris med abonnement:</strong> 
