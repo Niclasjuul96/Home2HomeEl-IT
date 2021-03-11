@@ -19,9 +19,11 @@
     <form id="form1" runat="server">
          <div>
                 <div class="header">
-                    <asp:ImageButton ID="Logo" runat="server" ImageUrl="~/images/H2HLogov2.png" PostBackUrl="~/pages/forside.aspx" />
-                        
-                    <asp:Image ID="Cover" runat="server" ImageUrl="~/images/coverIcon.png" />
+                    <div class="div2" onclick="location.href='../pages/forside.aspx'"></div>
+                    <div class="div4"></div>
+<%--                    <div class="logo"><asp:ImageButton runat="server" ImageUrl="~/images/H2HLogov2.png" PostBackUrl="~/pages/forside.aspx" /></div>
+                    <div class="banner"><asp:Image runat="server" ImageUrl="~/images/coverIcon.png" /></div>--%>
+
                 </div>
 
                 <div class="navigation">

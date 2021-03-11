@@ -5,23 +5,31 @@ body {
     background-color: white;
 }
 
-.banner {
-    
-}
 .header {
-    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 59px 59px 59px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
-.Logo {
-    Width: 11%;
-    margin-right: 83px;
-    margin-bottom: -50px;
-    margin-left: 20px;
+.div2 {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url("../images/H2HLogov2.png");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
-.Cover {
-    height: 175px;
-    width: 60%;
-    margin-left: 350px;
+.div4 {
+    grid-column: 2;
+    grid-row: 1/span 3;
+    background-image: url("../images/coverIcon.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 .navigation {
     height: 45px;
     background: linear-gradient(to top, #0000ff, white);
