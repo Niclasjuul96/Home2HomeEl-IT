@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Home2HomeIT.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Home2HomeIT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="style/normalize.css" rel="stylesheet" />
+    <link href="style/style.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div>
+                <div id="header">
+                    <asp:ImageButton ID="Logo" runat="server" ImageUrl="~/images/H2HLogov2.png" PostBackUrl="~/pages/forside.aspx" />
+                        
+                    <asp:Image ID="Cover" runat="server" ImageUrl="~/images/coverIcon.png" />
+                </div>
+
+                <div id="navigation">
+                    <ul id="nav">
+                        <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/pages/services.aspx">Services</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/pages/booktid.aspx">Booktid</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/pages/omos.aspx">Om os</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/pages/freelancer.aspx">Free Lancer</asp:HyperLink></li>
+                    </ul>
+                </div>
+
+                <div id="centent">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+             <div style="height: 120px;"></div>
+          
+            <div id="footer">
+                <strong>Kontakt oplysninger:</strong>
+                <br>Facebook: https://www.facebook.com/H2H.ITSupport/
+                <br>Mail: kontakt@home2homeit.dk
+                <br>Telefon: +45 50 55 57 87
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
