@@ -2,93 +2,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <h1>Om os</h1>
-            <p>
-                Home to Home IT-Support, er en hobby virksomhed, som er stiftet af Aliaksandr Sanin og medstifter Niclas Juul Schæffer.
-            </p>
-            <p>
-                Målet, med denne virksomhed, er simpelt. Hjælpe dig med at løse udfordringer med IT,
-            </p> 
-            <p>
-                 og samtidig give en let forståelse for hvordan forskellige IT enheder fungere
-            </p>
-
-            <div class="gridbodyServices"> 
-                <div class="gridbodyOmos1">
-                    <img class="picturesize" src="../images/profileImageAliaksandr.png" alt="Aliaksandr Sanin">
-                    <p>Aliaksandr Sanin</p>
-                    <p>Stifter</p>
-                    <p> <u class="mousepionter" data-toggle="modal" data-target="#AlexModal">klik her for Biografi</u></p>
-
-                    <div class="modal" id="AlexModal">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-
-                                <div class="modal-header">
-                                    <h4 class="modal-title">Aliaksandr Sanin</h4>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                </div>
-
-                                <div class="modal-body">
-                                    En stor del af mit liv har været dedikeret til IT, men det hele startede for alvor 9 år siden, 16 år gammel og havde lige ødelagt min første smartphone. Mine forældre sagde altid til mig; ”Ødelægger man noget, så skulle man selv stå til ansvar”. Der stod jeg, en teenager på 16, med intet job og kun lommepengene til rådighed. Jeg undersøgte selvfølgelig markedet og forstod hurtigt at den mest effektive og økonomisk måde man kunne reparere en smartphone på, var ved at gøre det selv. Telefonen der ikke fik lov til at give op, det var det jeg kaldte min IPhone 3Gs. På det tidspunkt lærte jeg at udskifte mange delikate komponenter der var i en smartphone, dette er selvfølgelig selvlært. Det stoppede selvfølgelig ikke der, den blev selvfølgelig også re-programmeret, så der blev åbnet op for flere muligheder med selve telefonen. Denne flair for IT havde jeg allerede fået i 13-årsalderen, hvor min første stationærcomputer både blev splittet fra hinanden og samlet igen. Bare for at jeg selv kunne få en forståelse for hvordan sådan en kompliceret maskine fungerede.
-
-                                    I alderen 13 til 16 år begyndte jeg at yde support til bekendte, familie og venner. Supporten omfattede fejlfinding og opsætning af computer, telefoner, netværk, operative systemer (hovedsageligt Windows) og servere (til spil). Samtidig lærte jeg at lave 3D modellering og programmere i c#/c-sharp dot.net. Mine færdigheder inden for 3D modellering blev brugt til at lave forskellige baner/maps, hvor jeg blandt andet har lavet en tro kopi af min skole, fra 10 klasse, til en fremlæggelse (se lærerens kommentar). Programmering på daværende tidspunkt, blev mest brugt til at lave simple Windows Form Applikationer, blandt andet en internet/webbrowser, lommeregner, og en medieafspiller til film og musik.
-
-                                    Fra 17 til 21 år, havde jeg repareret mere end 20+ telefoner som både var Android og Apple. Opsat og ydet support på utallige computere, tablets, telefoner, og vedligeholdt netværk i eget og andre private hjem. Blandt andet var jeg begyndt at yde meget fjernsupport, ved hjælp af TeamViewer (Applikation til Fjernstyring af pc), til folk fra andre landsdele og engang imellem internationalt.
-
-                                    2015 (februar til juni) tog jeg værnepligten i skive kaserne ingeniørregimentet, efterfølgende var jeg startet på EUX i TEC Ballerup, som datamatiker med speciale i programmering. Efter første hovedforløb startede jeg i praktik hos AxData A/S, hvor jeg skulle programmere en applikation til en større virksomhed. Efter et stykke tid i praktik, prøvede jeg at skifte fra EUX til EUD. Forskellen mellem EUD og EUX er, at man i slutningen af EUX både fik et gymnasielt diplom og et svendebrev, hvor man i EUD kun fik svendebrev. Der blev selvfølgelig lavet en aftale med en uddannelses konsulent, så jeg kunne afslutte mit andet hovedforløb på EUX og dernæst skifte til EUD inden det tredje hovedforløb. Denne overflytning gik desværre galt, grundet en misforståelse fra konsulentens side, og resulterede i at jeg både mistede praktikplads og uddannelse.
-
-                                    2016, 22 år, og intet håb. Efter at have mistet praktik og uddannelse, mistede jeg håbet omkring min fremtid inden for studiet. Jeg gik på kontant hjælp i 3 måneder, hvor jeg blandt anden havde brugt tid på forskellige brobygningsforløb, for at finde noget nyt. Der gik dog ikke lang tid, før jeg indså at det kun var IT jeg brændte for.
-
-                                    Home 2 Home IT-Support, fra ide til firma. /nEfter at have tilbragt tiden på forskellige brobygningsforløb og ydet support til mange folk slog det mig, at det var på tide at skabe et system, som ville gøre det lettere for folk at benytte IT. Ideen, blev hurtigt lavet til en businessplan, som senere blev lavet til et CVR registreret firma. Denne process tog 3 år, da jeg gerne ville være forberedt på alle de fremtidige udfordringer, som jeg ville møde på min vej.
-                                
-                                    Efter 12 års hårdt arbejde, masser af sved og tårer, står Home 2 Home IT-Support nu klar til at supportere og hjælpe dig videre med dit IT udstyr. Ud fra hvad der er blevet skrevet kan jeg garantere, at med mine 12 års erfaring inden for IT-Support, at jeg vil være i stand til at levere en brugervenlig og effektiv tjeneste til dig.
-                                </div>
-                            
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Afslut</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="gridbodyOmos2">
-                    <img class="picturesize" src="../images/profileImageNiclas.jpg" alt="Niclas Juul Schæffer">
-                    <p>Niclas Juul Schæffer</p>
-                    <p>Medstifter</p>
-                    <p><u class="mousepionter" data-toggle="modal" data-target="#NiclasModal">klik her for Biografi</u></p>
-
-                    <div class="modal" id="NiclasModal">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-
-                                <div class="modal-header">
-                                    <h4 class="modal-title">Niclas Schæffer</h4>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                </div>
-
-                                <div class="modal-body">
-                                    Jeg har siden en alder af 12 år haft stor interesse indenfor IT-systemer. Hvor det hele startede med at spille på en computer til meget mere. Jeg har haft min egen computer siden jeg var 10 år gammel og lærte stille og roligt hvordan en computer fungerede, men senere hen hvor det bare var en hobby, så endte med at være mere. Jeg begyndte at være behjælpelig med IT i familie kræsen og derefter hos venner. 
-
-                                    I alderen 14-18 begyndte jeg at bygge mine computere fra bunden. Jeg har altid synes at, måden alle komponenterne samarbejder på, har været spændende. Denne spænding drog mig dybere ind i IT verdenen. Spændingen fik mig til at købe alle dele til en computer og bygge det hele fra bunden. I den sammenhæng fandt jeg også de bedste muligheder, for mine venner og familie, efter deres behov.
-
-                                    Som 19 år gammel, så begyndte jeg at udtænkte min fremtid, og tænkte at IT var noget jeg havde en passion for, og nød at bruge tid på. Derfor søgte jeg ind på en Erhvervsuddannelse TEC Ballerup i 2016 som Datatekniker med et speciale i programmeringen, som er en videregående uddannelse.
-
-                                    Da jeg rundede 20 år gammel så startede jeg på uddannelsen, hvor jeg begyndte at udforske verden inden for udvikling af programmer og hjemmesider. Hvor det startede med nogle simple terminal applikationer til noget meget større, og opdagede hvor stor IT verdenen i virkeligheden er. 
-
-                                    Som 24 årig har jeg virkelig udviklet mig meget indenfor IT og er begyndt at lege rundt med AI (kunstig Intelligens). I netop dette år af mit liv, fik jeg et opkald fra en klassekammerat fra min uddannelse på min linje. Jeg blev spurgt om jeg havde lyst til hjælpe med projektet, hvilket jeg svarede ja til. Dette har så nu startet et stærkt samarbejde, som vil kunne udføre en effektiv service/tjeneste til dig.
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Afslut</button>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+<div class="omosbody">
+   <div class="gridbodyomos">
+       <div class="omosbillede">1</div>
+       <div class="omostekst">2</div>
+   </div>
+    
+   <div class="gridbodyomos2">
+       <div class="omosbillede">1</div>
+       <div class="omostekst">2</div>
+   </div>
+</div>
 </asp:Content>

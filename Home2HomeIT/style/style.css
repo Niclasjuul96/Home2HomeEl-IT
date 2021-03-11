@@ -33,6 +33,8 @@ body {
 .navigation {
     height: 45px;
     background: linear-gradient(to top, #0000ff, white);
+    margin-left: 250px;
+    margin-right: 250px;
 }
 .nav {
     display: block;
@@ -65,8 +67,8 @@ body {
 }
 
 .content {
-    padding: 20px;
-    min-height: 496.3px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .footer {
@@ -100,6 +102,8 @@ body {
     grid-template-rows: 50px 50px auto auto auto auto auto auto auto 50px 50px;
 }
 
+
+/*Services Page*/
 .gridbodyServices{
     display: grid;
     grid-template-columns: auto auto;
@@ -126,6 +130,31 @@ body {
     display: inline-block;
     text-align: center;
     margin: auto;
+}
+
+/*Om Os Page*/
+.omosbody{
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    min-width: 800px;
+    max-width: 1420px;
+
+}
+.omosbillede{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: yellow;
+}
+.omostekst{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: green;
+}
+.gridbodyomospop{
+
 }
 
 div div {
