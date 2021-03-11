@@ -18,14 +18,14 @@
 <body>
     <form id="form1" runat="server">
          <div>
-                <div id="header">
+                <div class="header">
                     <asp:ImageButton ID="Logo" runat="server" ImageUrl="~/images/H2HLogov2.png" PostBackUrl="~/pages/forside.aspx" />
                         
                     <asp:Image ID="Cover" runat="server" ImageUrl="~/images/coverIcon.png" />
                 </div>
 
-                <div id="navigation">
-                    <ul id="nav">
+                <div class="navigation">
+                    <ul class="nav">
                         <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/pages/services.aspx">Services</asp:HyperLink></li>
                         <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/pages/booktid.aspx">Booktid</asp:HyperLink></li>
                         <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/pages/omos.aspx">Om os</asp:HyperLink></li>
@@ -33,14 +33,14 @@
                     </ul>
                 </div>
 
-                <div id="centent">
+                <div class="centent">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
                 </div>
 
              <div style="height: 120px;"></div>
           
-            <div id="footer">
+            <div class="footer">
                 <strong>Kontakt oplysninger:</strong>
                 <br>Facebook: https://www.facebook.com/H2H.ITSupport/
                 <br>Mail: kontakt@home2homeit.dk

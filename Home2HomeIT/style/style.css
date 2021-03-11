@@ -5,39 +5,39 @@ body {
     background-color: white;
 }
 
-#banner {
+.banner {
     
 }
-#header {
+.header {
     
 }
-#Logo {
+.Logo {
     Width: 11%;
     margin-right: 83px;
     margin-bottom: -50px;
     margin-left: 20px;
 }
-#Cover {
+.Cover {
     height: 175px;
     width: 60%;
     margin-left: 350px;
 }
-#navigation {
+.navigation {
     height: 45px;
     background: linear-gradient(to top, #0000ff, white);
 }
-#nav {
+.nav {
     display: block;
     list-style: none;
     text-align: center;
     color: black;
 }
-#nav ul {
+.nav ul {
     display: none;
     list-style: none;
 }
 
-#nav li {
+.nav li {
     float: left;
     display: block;
     margin-top: 5px;
@@ -45,23 +45,23 @@ body {
     border-left: 1px solid #FFFFFF;
 }
 
-#nav a:link, #nav a :visited, #nav a:active {
+.nav a:link, #nav a :visited, #nav a:active {
     display: block;
     color: black;
     text-decoration: none;
 }
 
-#nav a:hover {
+.nav a:hover {
     background-color: white;
     color: #0000ff;
 }
 
-#content {
+.content {
     padding: 20px;
     min-height: 496.3px;
 }
 
-#footer {
+.footer {
     width: 100%;
     padding-bottom: 20px;
     background-color: #0000ff;
@@ -81,7 +81,7 @@ body {
     min-height: 250px;
 } 
 
-#gridbody {
+.gridbody {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -91,7 +91,7 @@ body {
     grid-template-columns: 50px 50px auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     grid-template-rows: 50px 50px auto auto auto auto auto auto auto 50px 50px;
 }
-#gridbodyPriser1 {
+.gridbodyPriser1 {
     grid-column-start: 1;
     grid-column-end: 10;
     min-width: 49.5%;
@@ -101,7 +101,7 @@ body {
     text-align: center;
 }
 
-#gridbodyPriser2 {
+.gridbodyPriser2 {
     grid-column-start: 11;
     grid-column-end: 20;
     min-width: 49.5%;
