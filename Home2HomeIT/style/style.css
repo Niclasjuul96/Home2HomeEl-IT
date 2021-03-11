@@ -72,6 +72,14 @@ body {
     text-align: left;
     font-size: 14px;
 }
+.picturesize {
+    max-width: 250px;
+    max-height: 250px;
+    margin: auto;
+    display: block;
+    min-width: 250px;
+    min-height: 250px;
+} 
 
 #gridbody {
     position: absolute;
