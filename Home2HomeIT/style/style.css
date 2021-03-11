@@ -91,6 +91,12 @@ body {
     grid-template-columns: 50px 50px auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     grid-template-rows: 50px 50px auto auto auto auto auto auto auto 50px 50px;
 }
+
+.gridbodyServices{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
 .gridbodyPriser1 {
     grid-column-start: 1;
     grid-column-end: 10;
