@@ -3,7 +3,6 @@
     src: url('../fonts/ethnocentric rg.ttf');
 }
 
-
 body {
     color: #574c3f;
     font-family: Corbel, Arial, Helvetica, Verdana, sans-serif;
@@ -70,6 +69,10 @@ body {
 .nav li:hover {
     background-color: white;
     color: black;
+}
+
+.nav li:active{
+    background-color: white;
 }
 
 .content {
