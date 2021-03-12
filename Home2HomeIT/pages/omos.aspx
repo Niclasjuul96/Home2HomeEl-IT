@@ -34,4 +34,7 @@
             </div>
         </div>
     </div>
+    <div class="omospopupbody">
+
+    </div>
 </asp:Content>

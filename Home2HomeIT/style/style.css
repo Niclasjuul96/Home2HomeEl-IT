@@ -65,11 +65,13 @@ body {
 .nav li a {
     color: black;
     font-family: navfont;
+    text-decoration-color: #0000ff;
 }
 
 .nav li:hover {
     background-color: white;
     color: black;
+    text-decoration-line: underline;
 }
 
 .content {
