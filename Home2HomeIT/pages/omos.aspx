@@ -9,10 +9,12 @@
                 <img class="picturesize" src="../images/profileImageAliaksandr.png" alt="Aliaksandr Sanin" />
             </div>
             <div class="omostekst">
-                <p>Aliaksandr Sanin <br/>
-                Stifter
+                <p>
+                    Aliaksandr Sanin
+                    <br />
+                    Stifter
                 </p>
-                <p><u Style="cursor: pointer">klik her for Biografi</u></p>
+                <p><u style="cursor: pointer">klik her for Biografi</u></p>
 
             </div>
         </div>
@@ -23,10 +25,11 @@
             </div>
             <div class="omostekst">
                 <p>
-                    Niclas Juul Schæffer <br/>
+                    Niclas Juul Schæffer
+                    <br />
                     Medstifter
                 </p>
-                <p><u Style="cursor: pointer">klik her for Biografi</u></p>
+                <p><u style="cursor: pointer">klik her for Biografi</u></p>
 
             </div>
         </div>
