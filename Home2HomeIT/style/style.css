@@ -143,15 +143,23 @@ body {
     max-width: 1420px;
 
 }
+.picturesize {
+    max-width: 250px;
+    max-height: 250px;
+    margin: auto;
+    display: block;
+    min-width: 250px;
+    min-height: 250px;
+}
+
 .omosbillede{
+    margin-top: 10px;
     grid-column: 2;
     grid-row: 1;
-    background-color: yellow;
 }
 .omostekst{
     grid-column: 2;
     grid-row: 2;
-    background-color: green;
 }
 .gridbodyomospop{
 
@@ -189,7 +197,6 @@ body {
     grid-column: 2;
     text-align: right;
 }
-
 
 div div {
     display: block;

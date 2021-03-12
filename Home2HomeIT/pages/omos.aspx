@@ -5,13 +5,30 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="omosbody">
         <div class="gridbodyomos">
-            <div class="omosbillede">1</div>
-            <div class="omostekst">2</div>
+            <div class="omosbillede">
+                <img class="picturesize" src="../images/profileImageAliaksandr.png" alt="Aliaksandr Sanin" />
+            </div>
+            <div class="omostekst">
+                <p>Aliaksandr Sanin <br/>
+                Stifter
+                </p>
+                <p><u Style="cursor: pointer">klik her for Biografi</u></p>
+
+            </div>
         </div>
 
         <div class="gridbodyomos2">
-            <div class="omosbillede">1</div>
-            <div class="omostekst">2</div>
+            <div class="omosbillede">
+                <img class="picturesize" src="../images/profileImageNiclas.jpg" alt="Niclas Schæffer" />
+            </div>
+            <div class="omostekst">
+                <p>
+                    Niclas Juul Schæffer <br/>
+                    Medstifter
+                </p>
+                <p><u Style="cursor: pointer">klik her for Biografi</u></p>
+
+            </div>
         </div>
     </div>
 </asp:Content>
