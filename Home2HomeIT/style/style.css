@@ -30,9 +30,12 @@ body {
     background-repeat: no-repeat;
 }
 
+/*Navegation bar*/
 .navigation {
     height: 45px;
-    background: linear-gradient(to top, #0000ff, white);
+    background-color: #0000ff;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, white 0%, rgba(0,0,255,1) 25%, rgba(0,0,255,1) 75%, rgba(255,255,255,1) 100%);
     margin-left: 250px;
     margin-right: 250px;
 }
@@ -40,7 +43,7 @@ body {
     display: block;
     list-style: none;
     text-align: center;
-    color: black;
+    font-family: Ethnocentric;
 }
 .nav ul {
     display: none;
@@ -54,6 +57,9 @@ body {
     padding: 0px 20px 0px 20px;
     border-right: 1px solid #FFFFFF;
 }
+.nav li a {
+    color: black;
+}
 
 .nav a:link, #nav a :visited, #nav a:active {
     display: block;
@@ -63,10 +69,11 @@ body {
 
 .nav a:hover {
     background-color: white;
-    color: #0000ff;
+    color: black;
 }
 
 .content {
+    margin-top: 25px;
     margin-left: 250px;
     margin-right: 250px;
 }
@@ -143,7 +150,7 @@ body {
     max-width: 1420px;
 
 }
-.picturesize {
+.omosbillede .picturesize {
     max-width: 250px;
     max-height: 250px;
     margin: auto;
@@ -151,9 +158,7 @@ body {
     min-width: 250px;
     min-height: 250px;
 }
-
 .omosbillede{
-    margin-top: 10px;
     grid-column: 2;
     grid-row: 1;
 }
