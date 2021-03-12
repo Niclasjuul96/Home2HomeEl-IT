@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="omosbody">
-        <div class="gridbodyomos">
+        <div>
             <div class="omosbillede">
                 <img class="picturesize" src="../images/profileImageAliaksandr.png" alt="Aliaksandr Sanin" />
             </div>
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="gridbodyomos2">
+        <div>
             <div class="omosbillede">
                 <img class="picturesize" src="../images/profileImageNiclas.jpg" alt="Niclas Schæffer" />
             </div>
