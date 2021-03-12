@@ -6,7 +6,7 @@
     <div class="omosbody">
         <div>
             <div class="omosbillede">
-                <img class="picturesize" src="../images/profileImageAliaksandr.png" alt="Aliaksandr Sanin" />
+                <img class="omospicturesize" src="../images/profileImageAliaksandr.png" alt="Aliaksandr Sanin" />
             </div>
             <div class="omostekst">
                 <p>
@@ -21,7 +21,7 @@
 
         <div>
             <div class="omosbillede">
-                <img class="picturesize" src="../images/profileImageNiclas.jpg" alt="Niclas Schæffer" />
+                <img class="omospicturesize" src="../images/profileImageNiclas.jpg" alt="Niclas Schæffer" />
             </div>
             <div class="omostekst">
                 <p>
@@ -35,6 +35,8 @@
         </div>
     </div>
     <div class="omospopupbody">
+    <div class="txtbiografi">
 
+    </div>
     </div>
 </asp:Content>

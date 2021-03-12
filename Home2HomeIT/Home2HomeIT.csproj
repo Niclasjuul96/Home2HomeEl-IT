@@ -79,7 +79,13 @@
     <Content Include="pages\Garanti-og-Handelsvilkår.html" />
     <Content Include="pages\omos.aspx" />
     <Content Include="pages\services.aspx" />
+    <Content Include="style\bookTid.css" />
+    <Content Include="style\forside.css" />
+    <Content Include="style\freelancer.css" />
+    <Content Include="style\masterStyles.css" />
     <Content Include="style\normalize.css" />
+    <Content Include="style\omOs.css" />
+    <Content Include="style\services.css" />
     <Content Include="style\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
