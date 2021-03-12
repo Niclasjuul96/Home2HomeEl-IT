@@ -3,7 +3,6 @@
     src: url('../fonts/ethnocentric rg.ttf');
 }
 
-
 body {
     color: #574c3f;
     font-family: Corbel, Arial, Helvetica, Verdana, sans-serif;
@@ -15,8 +14,8 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 59px 59px 59px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .header .div2 {
     grid-column: 1;
@@ -42,8 +41,8 @@ body {
     background-color: #0000ff;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, white 15%, rgba(0,0,255,1) 35%, rgba(0,0,255,1) 80%, rgba(255,255,255,1) 100%);
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .nav {
     display: block;
@@ -74,10 +73,14 @@ body {
     text-decoration-line: underline;
 }
 
+.nav li:active{
+    background-color: white;
+}
+
 .content {
     margin-top: 25px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .footer {
@@ -204,6 +207,53 @@ body {
     grid-column: 2;
     text-align: right;
 }
+
+/*Free Lancer*/
+.erhvervbody {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    min-width: 800px;
+    max-width: 1420px;
+    max-height: 700px;
+}
+
+.picturesizeErhverv {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.erhvervbillede1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.erhvervbillede2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.erhvervbillede3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+.erhvervbillede4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.erhvervtekst {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.griderhvervomospop {
+
+}
+
+
 
 div div {
     display: block;
