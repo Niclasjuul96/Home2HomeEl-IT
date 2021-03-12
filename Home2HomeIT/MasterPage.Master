@@ -16,7 +16,6 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
         <div>
             <div class="header">
                 <div class="div2" onclick="location.href='../pages/forside.aspx'"></div>
@@ -55,7 +54,5 @@
                 Telefon: +45 50 55 57 87
             </div>
         </div>
-
-    </form>
 </body>
 </html>
