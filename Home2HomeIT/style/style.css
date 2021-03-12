@@ -52,7 +52,7 @@ body {
     display: block;
     margin-top: 5px;
     padding: 0px 20px 0px 20px;
-    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
 }
 
 .nav a:link, #nav a :visited, #nav a:active {
