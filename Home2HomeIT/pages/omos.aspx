@@ -14,7 +14,7 @@
                     <br />
                     Stifter
                 </p>
-                <p><u style="cursor: pointer">klik her for Biografi</u></p>
+                <p><u style="cursor: pointer" onclick="btnMenuOn()">klik her for Biografi</u></p>
 
             </div>
         </div>

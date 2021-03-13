@@ -1,11 +1,17 @@
 ﻿.omosbody {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
     grid-column: 2;
     grid-row: 1;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    min-width: 800px;
-    max-width: 1420px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
 }
 
 .omosbillede .picturesize {
@@ -39,9 +45,19 @@
 
 /*2 Grid layer*/
 .omospopupbody {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    grid-column: 2;
+    grid-row: 1;
     display: grid;
     grid-template-columns: 10% auto 10%;
     grid-template-rows: 5% auto 5%;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
 }
 .omospopupbody .txtbiografi{
     grid-column: 2;
