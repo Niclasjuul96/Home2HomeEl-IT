@@ -73,6 +73,7 @@
     <Content Include="images\page_cover.jpg" />
     <Content Include="images\profileImageAliaksandr.png" />
     <Content Include="images\profileImageNiclas.jpg" />
+    <Content Include="javascript\javascript.js" />
     <Content Include="pages\booktid.aspx" />
     <Content Include="pages\forside.aspx" />
     <Content Include="pages\freelancer.aspx" />
