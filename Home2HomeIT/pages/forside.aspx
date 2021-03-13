@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-        <link href="style/forside.css" rel="stylesheet" />
+        
 
 
     <h1>Home to Home IT-Support</h1>

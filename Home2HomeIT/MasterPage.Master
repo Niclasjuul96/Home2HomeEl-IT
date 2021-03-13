@@ -12,6 +12,11 @@
     <script src="javascript/javascript.js"></script>
     <link href="style/normalize.css" rel="stylesheet" />
     <link href="style/masterStyles.css" rel="stylesheet" />
+    <link href="style/services.css" rel="stylesheet" />
+    <link href="style/omOs.css" rel="stylesheet" />
+    <link href="style/bookTid.css" rel="stylesheet" />
+    <link href="style/forside.css" rel="stylesheet" />
+    <link href="style/freelancer.css" rel="stylesheet" />
     
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
