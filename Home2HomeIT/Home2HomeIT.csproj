@@ -86,7 +86,6 @@
     <Content Include="style\normalize.css" />
     <Content Include="style\omOs.css" />
     <Content Include="style\services.css" />
-    <Content Include="style\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
