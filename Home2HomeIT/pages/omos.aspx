@@ -16,7 +16,7 @@
                     <br />
                     Stifter
                 </p>
-                <p><u style="cursor: pointer" onclick="btnMenuOn()">klik her for Biografi</u></p>
+                <p onclick="btnMenuOn()"><u style="cursor: pointer">klik her for Biografi</u></p>
 
             </div>
         </div>
@@ -36,7 +36,7 @@
             </div>
         </div>
     </div>
-    <div class="omospopupbody">
+    <div class="omospopupbody" onclick="btnMenuOff()">
     <div class="txtbiografi">
 
     </div>
