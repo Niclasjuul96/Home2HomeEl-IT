@@ -1,7 +1,9 @@
 ﻿function btnMenuOn() {
-    document.getElementById("omosbody").style.display = "grid";
+    //document.getElementsByClassName("omosbody").style.display = "none";
+    document.getElementsById("omospopupbody").style.display = "grid";
 }
 
 function btnMenuOff() {
-    document.getElementById("omospopupbody").style.display = "none";
+    document.getElementsById("omospopupbody").style.display = "none";
+    //document.getElementsByClassName("omosbody").style.display = "grid";
 }

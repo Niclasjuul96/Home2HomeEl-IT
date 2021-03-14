@@ -21,8 +21,7 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
-    <div>
+<body class="body">
         <div class="header">
             <div class="div2" style="cursor: pointer" onclick="location.href='../pages/forside.aspx'"></div>
             <div class="div4"></div>
@@ -55,6 +54,5 @@
                 <br>
             Telefon: +45 50 55 57 87
         </div>
-    </div>
 </body>
 </html>

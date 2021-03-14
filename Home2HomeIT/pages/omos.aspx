@@ -1,14 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="omos.aspx.cs" Inherits="Home2HomeIT.pages.omos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+        <script src="javascript/javascript.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
-
     <div class="omosbody">
-        <div>
+        <div class="omosgrid1">
             <div class="omosbillede">
-                <img class="omospicturesize" src="../images/profileImageAliaksandr.png" alt="Aliaksandr Sanin" />
+                <img class="omospicturesize" src="../images/profileImageAliaksandr.png" alt="Aliaksandr Sanin" onclick="btnMenuOn()"/>
             </div>
             <div class="omostekst">
                 <p>
@@ -16,12 +15,12 @@
                     <br />
                     Stifter
                 </p>
-                <p onclick="btnMenuOn()"><u style="cursor: pointer">klik her for Biografi</u></p>
+                <u><p style="cursor: pointer" > her for Biografi</p></u>
 
             </div>
         </div>
 
-        <div>
+        <div class="omosgrid2">
             <div class="omosbillede">
                 <img class="omospicturesize" src="../images/profileImageNiclas.jpg" alt="Niclas Schæffer" />
             </div>
@@ -35,10 +34,9 @@
 
             </div>
         </div>
-    </div>
-    <div class="omospopupbody" onclick="btnMenuOff()">
-    <div class="txtbiografi">
-
-    </div>
+    </div> 
+    <div id="omospopupbody" >
+        <div class="txtbiografi" onclick="btnMenuOff()">
+        </div>
     </div>
 </asp:Content>
