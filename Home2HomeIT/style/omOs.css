@@ -55,7 +55,7 @@
 #omospopupbody {
     grid-column: 1;
     grid-row: 1;
-    display: none;
+    display: grid;
     grid-template-columns: 10% 80% 10%;
     grid-template-rows: 5% 90% 5%;
     height: 400px;
@@ -63,7 +63,7 @@
     background-color: green;
     z-index: 2;
 }
-.omospopupbody .txtbiografi{
+#omospopupbody .txtbiografi{
     grid-column: 2;
     grid-row: 2;
     background-color: yellow;

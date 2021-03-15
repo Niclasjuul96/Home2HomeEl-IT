@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Home2HomeIT.pages
-{
-
-
-    public partial class omos
-    {
+namespace Home2HomeIT.pages {
+    
+    
+    public partial class omos {
     }
 }

@@ -1,13 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="omos.aspx.cs" Inherits="Home2HomeIT.pages.omos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-        <script src="javascript/javascript.js"></script>
+    <script src="../javascript.js" type="text/javascript"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="omosbody">
         <div class="omosgrid1">
-            <div class="omosbillede">
-                <img class="omospicturesize" src="../images/profileImageAliaksandr.png" alt="Aliaksandr Sanin" onclick="btnMenuOn()"/>
+            <div class="omosbillede" >
+                <img class="omospicturesize" src="../images/profileImageAliaksandr.png" alt="Aliaksandr Sanin"/>
             </div>
             <div class="omostekst">
                 <p>
@@ -15,7 +15,7 @@
                     <br />
                     Stifter
                 </p>
-                <u><p style="cursor: pointer" > her for Biografi</p></u>
+                <u><p style="cursor: pointer" onclick="btnMenuOn()"> her for Biografi</p></u>
 
             </div>
         </div>
@@ -36,7 +36,8 @@
         </div>
     </div> 
     <div id="omospopupbody" >
-        <div class="txtbiografi" onclick="btnMenuOff()">
+        <div class="txtbiografi" onclick="btnMenuOff()" runat="server">
         </div>
     </div>
+    <script src="../javascript.js" type="text/javascript"></script>
 </asp:Content>
