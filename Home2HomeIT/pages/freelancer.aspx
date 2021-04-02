@@ -13,10 +13,10 @@
             <img class="picturesizeErhverv" src="../images/profileImageNiclas.jpg" />
         </div>
         <div class="erhvervbillede3">
-            <img class="picturesizeErhverv" src="../images/profileImageAliaksandr.png" />
+            <img class="picturesizeErhverv" src="../images/profileImageAliaksandr.jpg" />
         </div>
         <div class="erhvervbillede4">
-            <img class="picturesizeErhverv" src="../images/profileImageAliaksandr.png" />
+            <img class="picturesizeErhverv" src="../images/profileImageAliaksandr.jpg" />
         </div>
     </div>
     
