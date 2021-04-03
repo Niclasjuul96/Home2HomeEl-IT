@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/omOs.css" rel="stylesheet"/>
-    <script src="<%=ResolveUrl("~/scripts/omosscript.js") %>" type="text/javascript"></script>
+    <script src="<%=ResolveUrl("~/scripts/omosScript.js") %>" type="text/javascript"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="omosbody">

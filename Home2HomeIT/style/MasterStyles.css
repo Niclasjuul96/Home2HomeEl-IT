@@ -50,18 +50,18 @@
     height: 30px;
 }
 
-.nav {
+#nav {
     display: block;
     list-style: none;
     text-align: center;
 }
 
-    .nav ul {
+    ul {
         display: none;
         list-style: none;
     }
 
-    .nav li {
+    .li {
         float: left;
         display: block;
         margin-top: 0px;
@@ -69,21 +69,17 @@
         border-right: 1px solid #FFFFFF;
     }
 
-        .nav li a {
-            color: black;
-            font-family: navfont;
-            text-decoration-color: #0000ff;
-        }
+    .li a {
+        color: black;
+        font-family: navfont;
+        text-decoration-color: #0000ff;
+    }
 
-        .nav li:hover {
-            background-color: white;
-            color: black;
-            text-decoration-line: underline;
-        }
-
-        .nav li:active {
-            background-color: white;
-        }
+    .active, .li:hover {
+        background-color: white;
+        color: black;
+        text-decoration-line: underline;
+    }
 
 /*body*/
 .content {

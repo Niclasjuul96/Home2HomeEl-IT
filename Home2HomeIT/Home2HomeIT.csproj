@@ -76,7 +76,8 @@
     <Content Include="images\page_cover.jpg" />
     <Content Include="images\profileImageAliaksandr.JPG" />
     <Content Include="images\profileImageNiclas.JPG" />
-    <Content Include="scripts\omosscript.js" />
+    <Content Include="scripts\masterScript.js" />
+    <Content Include="scripts\omosScript.js" />
     <Content Include="pages\booktid.aspx" />
     <Content Include="pages\forside.aspx" />
     <Content Include="pages\freelancer.aspx" />
