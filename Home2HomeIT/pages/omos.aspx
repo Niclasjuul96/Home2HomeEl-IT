@@ -38,7 +38,8 @@
     <div id="omospopup" >
         <div class="backBtn"  onclick="btnMenuOff()" runat="server"></div>
         <div class="popupbody">
-             En stor del af mit liv har været dedikeret til IT, men det hele startede for alvor 9 år siden, 16 år gammel og havde lige ødelagt min første smartphone. 
+
+            <p>En stor del af mit liv har været dedikeret til IT, men det hele startede for alvor 9 år siden, 16 år gammel og havde lige ødelagt min første smartphone. 
             Mine forældre sagde altid til mig; ”Ødelægger man noget, så skulle man selv stå til ansvar”. Der stod jeg, en teenager på 16, med intet job og kun lommepengene til rådighed. 
             Jeg undersøgte selvfølgelig markedet og forstod hurtigt at den mest effektive og økonomisk måde man kunne reparere en smartphone på, var ved at gøre det selv. 
             Telefonen der ikke fik lov til at give op, det var det jeg kaldte min IPhone 3Gs. 
@@ -51,7 +52,7 @@
             Denne overflytning gik desværre galt, grundet en misforståelse fra konsulentens side, og resulterede i at jeg både mistede praktikplads og uddannelse. 2016, 22 år, og intet håb. Efter at have mistet praktik og uddannelse, mistede jeg håbet omkring min fremtid inden for studiet. Jeg gik på kontant hjælp i 3 måneder, hvor jeg blandt anden havde brugt tid på forskellige brobygningsforløb, for at finde noget nyt. Der gik dog ikke lang tid, før jeg indså at det kun var IT jeg brændte for. Home 2 Home IT-Support, fra ide til firma. 
             /nEfter at have tilbragt tiden på forskellige brobygningsforløb og ydet support til mange folk slog det mig, at det var på tide at skabe et system, som ville gøre det lettere for folk at benytte IT. Ideen, blev hurtigt lavet til en businessplan, som senere blev lavet til et CVR registreret firma. 
             Denne process tog 3 år, da jeg gerne ville være forberedt på alle de fremtidige udfordringer, som jeg ville møde på min vej. Efter 12 års hårdt arbejde, masser af sved og tårer, står Home 2 Home IT-Support nu klar til at supportere og hjælpe dig videre med dit IT udstyr. Ud fra hvad der er blevet skrevet kan jeg garantere, at med mine 12 års erfaring inden for IT-Support, at jeg vil være i stand til at levere en brugervenlig og effektiv tjeneste til dig.
-
+            </p>
         </div>
     </div>
 </asp:Content>
