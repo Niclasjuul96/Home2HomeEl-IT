@@ -70,12 +70,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\backbtnlogo.png" />
     <Content Include="images\coverIcon.png" />
     <Content Include="images\H2HLogov2.png" />
     <Content Include="images\page_cover.jpg" />
     <Content Include="images\profileImageAliaksandr.JPG" />
     <Content Include="images\profileImageNiclas.JPG" />
-    <Content Include="scripts\javascript.js" />
+    <Content Include="scripts\omosscript.js" />
     <Content Include="pages\booktid.aspx" />
     <Content Include="pages\forside.aspx" />
     <Content Include="pages\freelancer.aspx" />
