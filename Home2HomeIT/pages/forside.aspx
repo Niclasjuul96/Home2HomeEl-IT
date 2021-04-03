@@ -5,11 +5,14 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         
-    <h1>Home to Home IT-Support</h1>
-    <p>Vi er her for at hjælpe dig frem i den daglige udfordring med IT-enheder og sysmtemer. </p>
-    <p>Pga. ombygning af vores hjemmeside, kan der forkomme grammatiske samt grafiske fejl. Vi er selvfølgelig stadigvæk klar til at hjælpe.</p>
-    <p>Booking af tid forgår via Kontakt.</p>
-    <p>Mange tak for forståelsen, rigtig god dag!</p>
+    <div>
+        <h1>Home to Home IT-Support</h1>
+        <p>Vi er her for at hjælpe dig frem i den daglige udfordring med IT-enheder og sysmtemer. </p>
+        <p>Pga. ombygning af vores hjemmeside, kan der forkomme grammatiske samt grafiske fejl. Vi er selvfølgelig stadigvæk klar til at hjælpe.</p>
+        <p>Booking af tid forgår via Kontakt.</p>
+        <p>Mange tak for forståelsen, rigtig god dag!</p>
+    </div>
+    
 
 
 </asp:Content>
