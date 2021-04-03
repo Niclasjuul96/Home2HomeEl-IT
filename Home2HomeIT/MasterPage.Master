@@ -13,6 +13,7 @@
     <%-- No touch! --%>
     <link href="style/normalize.css" rel="stylesheet" />
     <link href="style/masterStyles.css" rel="stylesheet" />
+    <script src="<%=ResolveUrl("~/scripts/masterScript.js") %>" type="text/javascript"></script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
 
@@ -24,14 +25,14 @@
                 <div class="div4"></div>
             </div>
             <div class="navigation">
-                <ul class="nav">
-                    <li>
-                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/pages/services.aspx">Services</asp:HyperLink></li>
-                    <li>
+                <ul id="nav">
+                    <li class="li" onclick="onClick()">
+                        <asp:HyperLink ID="HyperLink1" runat="server"  NavigateUrl="~/pages/services.aspx">Services</asp:HyperLink></li>
+                    <li class="li">
                         <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/pages/booktid.aspx">Booktid</asp:HyperLink></li>
-                    <li>
+                    <li class="li">
                         <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/pages/omos.aspx">Om os</asp:HyperLink></li>
-                    <li>
+                    <li class="li">
                         <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/pages/freelancer.aspx">Free Lancer</asp:HyperLink></li>
                 </ul>
             </div>
