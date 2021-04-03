@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="freelancer.aspx.cs" Inherits="Home2HomeIT.pages.freelancer" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="../style/freelancer.css" rel="stylesheet"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
 
     <div class="erhvervbody"> 
         <div id="erhvervbillede1" class="erhvervfont"> Webudvikling
