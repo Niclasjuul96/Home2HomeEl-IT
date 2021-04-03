@@ -4,7 +4,7 @@
     <link href="../style/omOs.css" rel="stylesheet"/>
     <script src="<%=ResolveUrl("~/scripts/omosscript.js") %>" type="text/javascript"></script>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" onload="navlightup()" runat="server">
     <div class="omosbody">
         <div class="omosgrid1">
             <div class="omosbillede" >
