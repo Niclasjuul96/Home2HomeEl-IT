@@ -63,10 +63,10 @@
     bottom: 0;
     right: 0;
     left: 0;
-    grid-template-columns: 10% 40px auto 10%;
-    grid-template-rows: 5% 40px auto 5%;
+    grid-template-columns: 100px 40px auto 100px;
+    grid-template-rows: 50px 40px auto 50px;
     width: 100%;
-    height: auto;
+    height: 560px;
     background-color: green;
     z-index: 2;
     
@@ -78,8 +78,18 @@
         grid-row: 3;
         background-color: yellow;
         overflow: scroll;
-        
+        -ms-overflow-style: none; 
+        scrollbar-width: none;
     }
+
+        #omospopup .popupbody::-webkit-scrollbar {
+            display: none;
+            
+        }
+
+
+
+
     #omospopup .backBtn{
         grid-column: 2;
         grid-row: 2;

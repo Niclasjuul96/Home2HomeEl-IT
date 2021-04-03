@@ -5,18 +5,14 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
 
-    <div class="erhvervbody">
-        <div class="erhvervbillede1">
-            <img class="picturesizeErhverv" src="../images/profileImageNiclas.jpg" />
+    <div class="erhvervbody"> 
+        <div id="erhvervbillede1" class="erhvervfont"> Webudvikling
         </div>
-        <div class="erhvervbillede2">
-            <img class="picturesizeErhverv" src="../images/profileImageNiclas.jpg" />
+        <div id="erhvervbillede2" class="erhvervfont"> Cloud løsning   
         </div>
-        <div class="erhvervbillede3">
-            <img class="picturesizeErhverv" src="../images/profileImageAliaksandr.jpg" />
+        <div id="erhvervbillede3" class="erhvervfont"> Photoshopping    
         </div>
-        <div class="erhvervbillede4">
-            <img class="picturesizeErhverv" src="../images/profileImageAliaksandr.jpg" />
+        <div id="erhvervbillede4" class="erhvervfont"> VideoRedigering    
         </div>
     </div>
     

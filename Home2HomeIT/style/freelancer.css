@@ -1,12 +1,18 @@
-﻿.erhvervbody {
-    grid-column: 2;
-    grid-row: 2;
+﻿@font-face {
+    font-family: 'ethnocentric rg';
+    src: url('../fonts/ethnocentric rg.ttf') format('truetype');
+}
+
+.erhvervbody {
+    grid-column: 1;
+    grid-row: 1;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     min-width: 800px;
     max-width: 1420px;
     max-height: 700px;
+    position: center;
 }
 
 .picturesizeErhverv {
@@ -16,29 +22,43 @@
     max-height: 100%;
 }
 
-.erhvervbillede1 {
+#erhvervbillede1 {
     grid-column: 1;
     grid-row: 1;
+    height: 280px;
+    background-color: green;
 }
 
-.erhvervbillede2 {
+#erhvervbillede2 {
     grid-column: 2;
     grid-row: 1;
+    height: 280px;
+    background-color: lawngreen;
 }
 
-.erhvervbillede3 {
+#erhvervbillede3 {
     grid-column: 1;
     grid-row: 2;
+    height: 280px;
+    background-color: blueviolet;
 }
 
-.erhvervbillede4 {
+#erhvervbillede4 {
     grid-column: 2;
     grid-row: 2;
+    height: 280px;  
+    background-color: blue;
 }
 
 .erhvervtekst {
     grid-column: 2;
     grid-row: 2;
+}
+
+.erhvervfont {
+    font-family: 'ethnocentric rg';
+    font-size: 40px;
+    
 }
 
 .griderhvervomospop {
