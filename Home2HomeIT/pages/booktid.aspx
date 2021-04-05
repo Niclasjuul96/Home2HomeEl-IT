@@ -17,12 +17,12 @@
                 Mindre beskrivelse:
             </div>
         <form class="formbooktid" id="form1" runat="server">
-            <asp:textbox class="txtinputbox" id="txtnavn" runat="server" /><br>
-            <asp:textbox class="txtinputbox" id="txtvejnavn" runat="server" /><br>
-            <asp:textbox class="txtinputbox" id="txtkommune" runat="server" /><br>
-            <asp:textbox class="txtinputbox" id="txttlf" runat="server" /><br>
-            <asp:textbox class="txtinputbox" id="txtmail" runat="server" /><br>   
-            <asp:DropDownList class="txtinputbox" ID="servicelist" runat="server">
+            <asp:textbox CssClass="txtinputbox" id="txtnavn" runat="server" /><br>
+            <asp:textbox CssClass="txtinputbox" id="txtvejnavn" runat="server" /><br>
+            <asp:textbox CssClass="txtinputbox" id="txtkommune" runat="server" /><br>
+            <asp:textbox CssClass="txtinputbox" id="txttlf" runat="server" /><br>
+            <asp:textbox CssClass="txtinputbox" id="txtmail" runat="server" /><br>   
+            <asp:DropDownList CssClass="txtinputbox" ID="servicelist" runat="server">
                <asp:ListItem value="value">  
                    Abonnement  
                </asp:ListItem>
@@ -51,7 +51,7 @@
                    Web-udvikling  
                </asp:ListItem>
         </asp:DropDownList><br>
-            <asp:textbox class="txtinputbox" id="txtbeskrivelse" runat="server" height="150px" textmode="multiline" /><br>
+            <asp:textbox CssClass="txtinputbox" id="txtbeskrivelse" runat="server" height="150px" textmode="multiline" /><br>
             <div  class="btnbooktid">
                 <div class="div1">Jeg har læst og forstået, <a href="Garanti-og-Handelsvilkår.html">garanti- og handelsvilkår</a> <asp:CheckBox ID="checkbox" runat="server" /></div>               
                 <div class="div2"><asp:button id="btn_SendMessage" runat="server" text="Send message" /></div>
