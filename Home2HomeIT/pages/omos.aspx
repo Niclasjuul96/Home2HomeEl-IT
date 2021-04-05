@@ -36,9 +36,9 @@
         </div>
     </div> 
     <div id="omospopup" >
+        <div class="textfade"></div>
         <div class="backBtn"  onclick="btnMenuOff()" runat="server"></div>
         <div class="popupbody">
-
             <p>En stor del af mit liv har været dedikeret til IT, men det hele startede for alvor 9 år siden, 16 år gammel og havde lige ødelagt min første smartphone. 
             Mine forældre sagde altid til mig; ”Ødelægger man noget, så skulle man selv stå til ansvar”. Der stod jeg, en teenager på 16, med intet job og kun lommepengene til rådighed. 
             Jeg undersøgte selvfølgelig markedet og forstod hurtigt at den mest effektive og økonomisk måde man kunne reparere en smartphone på, var ved at gøre det selv. 
