@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="omos.aspx.cs" Inherits="Home2HomeIT.pages.omos" %>
+﻿<%@ Page Title="Home2Home - Omos" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="omos.aspx.cs" Inherits="Home2HomeIT.pages.omos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/omOs.css" rel="stylesheet"/>

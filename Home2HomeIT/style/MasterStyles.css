@@ -75,11 +75,15 @@
         text-decoration-color: #0000ff;
     }
 
-    .active, .li:hover {
+    .li:hover{
         background-color: white;
         color: black;
         text-decoration-line: underline;
     }
+
+/*    #knap0 {
+        background-color: rgb(255,255,255);
+    }*/
 
 /*body*/
 .content {

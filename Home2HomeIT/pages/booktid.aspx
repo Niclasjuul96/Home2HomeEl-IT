@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="booktid.aspx.cs" Inherits="Home2HomeIT.pages.booktid" %>
+﻿<%@ Page Title="Home2Home - Booktid" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="booktid.aspx.cs" Inherits="Home2HomeIT.pages.booktid" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/bookTid.css" rel="stylesheet" />
@@ -53,7 +53,7 @@
         </asp:DropDownList><br>
             <asp:textbox CssClass="txtinputbox" id="txtbeskrivelse" runat="server" height="150px" textmode="multiline" /><br>
             <div  class="btnbooktid">
-                <div class="div1">Jeg har læst og forstået, <a href="Garanti-og-Handelsvilkår.html">garanti- og handelsvilkår</a> <asp:CheckBox ID="checkbox" runat="server" /></div>               
+                <div class="div1">Jeg har læst og forstået, <a href="Garanti-og-Handelsvilkår.html" target="_blank">garanti- og handelsvilkår</a> <asp:CheckBox ID="checkbox" runat="server" /></div>               
                 <div class="div2"><asp:button id="btn_SendMessage" runat="server" text="Send message" /></div>
             </div><br>
             <asp:label id="Label1" runat="server" text="" />

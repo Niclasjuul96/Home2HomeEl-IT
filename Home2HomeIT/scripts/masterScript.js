@@ -1,14 +1,15 @@
-﻿function onClick() {
-    var container = document.getElementById("nav");
-    var btns = container.getElementsByClassName("li");
-
-    for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function () {
-            var current = document.getElementsByClassName("active");
-            if (current.length > 0) {
-                current[0].className = current[0].className.replace("active", "")
-            }
-            this.className += " active";
-        });
+﻿function navHighLight(title) {
+    if (title == 'Home2Home - Services') {
+        document.getElementById('knap0').style.backgroundColor = rgb(255, 255, 255);
     }
+    else if (title == 'Home2Home - Booktid') {
+        document.getElementById("knap1").style.backgroundColor = rgb(255, 255, 255);
+    }
+    else if (title == 'Home2Home - Omos') {
+        document.getElementById("knap2").style.backgroundColor = rgb(255, 255, 255);
+    }
+    else if (title == 'Home2Home - Free Lancer') {
+        document.getElementById("knap3").style.backgroundColor = rgb(255,255,255);
+    }
+
 }

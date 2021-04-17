@@ -11,7 +11,7 @@ namespace Home2HomeIT.pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ClientScript.RegisterStartupScript(GetType(), "Javascript", "javascript:navHighLight('" + Title + "'); ", true);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="services.aspx.cs" Inherits="Home2HomeIT.pages.Services" %>
+﻿<%@ Page Title="Home2Home - Services" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="services.aspx.cs" Inherits="Home2HomeIT.pages.Services" %>
     
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../style/services.css" rel="stylesheet" />
