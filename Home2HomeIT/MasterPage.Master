@@ -27,16 +27,19 @@
                 <div class="navigation">
                     <ul id="nav">
                         <li id="knap0" class="li" >
-                            <asp:HyperLink ID="HyperLink1" runat="server"  NavigateUrl="~/pages/services.aspx">Services</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink1" runat="server"  NavigateUrl="~/pages/forside.aspx">Forside</asp:HyperLink>
                         </li>
-                        <li id="knap1" class="li"  >
-                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/pages/booktid.aspx">Booktid</asp:HyperLink>
+                        <li id="knap1" class="li" >
+                            <asp:HyperLink ID="HyperLink2" runat="server"  NavigateUrl="~/pages/services.aspx">Services</asp:HyperLink>
                         </li>
-                        <li id="knap2" class="li" >
-                            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/pages/omos.aspx">Om os</asp:HyperLink>
+                        <li id="knap2" class="li"  >
+                            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/pages/booktid.aspx">Booktid</asp:HyperLink>
                         </li>
-                        <li id="knap3" class="li">
-                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/pages/freelancer.aspx">Free Lancer</asp:HyperLink>
+                        <li id="knap3" class="li" >
+                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/pages/omos.aspx">Om os</asp:HyperLink>
+                        </li>
+                        <li id="knap4" class="li">
+                            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/pages/Freelancer-Coming-Soon.aspx">Free Lancer</asp:HyperLink>
                         </li>
                     </ul>
                 </div>
@@ -54,8 +57,6 @@
                     Facebook: https://www.facebook.com/H2H.ITSupport/
                         <br>
                     Mail: kontakt@home2homeit.dk
-                        <br>
-                    Telefon: +45 50 55 57 87
                 </div>
     </body>
 </html>

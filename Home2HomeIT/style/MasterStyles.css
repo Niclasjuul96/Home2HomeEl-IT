@@ -81,8 +81,17 @@
         text-decoration-line: underline;
     }
 
-/*    #knap0 {
-        background-color: rgb(255,255,255);
+        .li a:active {
+            background-color: white;
+            color: black;
+            text-decoration-line: underline;
+        }
+
+     /*Disable button + gray out if needed.*/
+   /* #knap4 {
+        cursor: not-allowed;
+        background-color: rgb(229, 229, 229);
+        pointer-events: none;
     }*/
 
 /*body*/
