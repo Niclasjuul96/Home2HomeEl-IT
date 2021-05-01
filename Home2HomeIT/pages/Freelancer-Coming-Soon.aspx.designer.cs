@@ -11,7 +11,7 @@ namespace Home2HomeIT.pages
 {
 
 
-    public partial class freelancer
+    public partial class Freelancer_Coming_Soon
     {
     }
 }

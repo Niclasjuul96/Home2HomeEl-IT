@@ -73,11 +73,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\btnback.png" />
+    <Content Include="images\ComingSoonBackground.jpg" />
     <Content Include="images\coverIcon.png" />
     <Content Include="images\H2HLogov2.png" />
     <Content Include="images\page_cover.jpg" />
     <Content Include="images\profileImageAliaksandr.JPG" />
     <Content Include="images\profileImageNiclas.JPG" />
+    <Content Include="pages\Freelancer-Coming-Soon.aspx" />
     <Content Include="scripts\masterScript.js" />
     <Content Include="scripts\omosScript.js" />
     <Content Include="pages\booktid.aspx" />
@@ -89,6 +91,7 @@
     <Content Include="style\bookTid.css" />
     <Content Include="style\forside.css" />
     <Content Include="style\freelancer.css" />
+    <Content Include="style\freelancercomingsoon.css" />
     <Content Include="style\masterStyles.css" />
     <Content Include="style\normalize.css" />
     <Content Include="style\omOs.css" />
@@ -116,6 +119,13 @@
     </Compile>
     <Compile Include="pages\forside.aspx.designer.cs">
       <DependentUpon>forside.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Freelancer-Coming-Soon.aspx.cs">
+      <DependentUpon>Freelancer-Coming-Soon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Freelancer-Coming-Soon.aspx.designer.cs">
+      <DependentUpon>Freelancer-Coming-Soon.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\freelancer.aspx.cs">
       <DependentUpon>freelancer.aspx</DependentUpon>
@@ -151,9 +161,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="javascript\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

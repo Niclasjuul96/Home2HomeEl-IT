@@ -75,11 +75,24 @@
         text-decoration-color: #0000ff;
     }
 
-    .active, .li:hover {
+    .li:hover{
         background-color: white;
         color: black;
         text-decoration-line: underline;
     }
+
+        .li a:active {
+            background-color: white;
+            color: black;
+            text-decoration-line: underline;
+        }
+
+     /*Disable button + gray out if needed.*/
+   /* #knap4 {
+        cursor: not-allowed;
+        background-color: rgb(229, 229, 229);
+        pointer-events: none;
+    }*/
 
 /*body*/
 .content {

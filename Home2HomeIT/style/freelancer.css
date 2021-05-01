@@ -59,6 +59,19 @@
     font-family: 'ethnocentric rg';
     font-size: 40px;
     padding: 110px 0;
+    cursor: pointer;
+
+    /*can't select or mark text*/
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    /*
+     Introduced in Internet Explorer 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+    -ms-user-select: none;
+    user-select: none;
+    
 }
 
 .griderhvervomospop {
