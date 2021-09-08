@@ -16,7 +16,7 @@
                     <br />
                     Stifter
                 </p>
-                <p style="cursor: pointer" onclick="btnMenuOn()"><u> her for Biografi </u></p>
+                <p style="cursor: pointer" onclick="btnMenuOn1()"><u> her for Biografi </u></p>
             </div>
         </div>
 
@@ -30,7 +30,7 @@
                     <br />
                     Medstifter
                 </p>
-                <p><u style="cursor: pointer">klik her for Biografi</u></p>
+                <p><u style="cursor: pointer" onclick="btnMenuOn()">klik her for Biografi</u></p>
 
             </div>
         </div>
@@ -54,4 +54,21 @@
             </p>
         </div>
     </div>
+        <%--<div id="omospopup" >
+        <div class="backBtn"  onclick="btnMenuOff()" runat="server"></div>
+        <div class="popupbody">
+            <p>Jeg har siden en alder af 12 år haft stor interesse indenfor IT-systemer. Hvor det hele startede med at spille på en computer til meget mere. 
+            Jeg har haft min egen computer siden jeg var 10 år gammel og lærte stille og roligt hvordan en computer fungerede, men senere hen hvor det bare var en hobby, 
+            så endte med at være mere. Jeg begyndte at være behjælpelig med IT i familie kræsen og derefter hos venner. I alderen 14-18 begyndte jeg at bygge mine computere fra bunden. 
+            Jeg har altid synes at, måden alle komponenterne samarbejder på, har været spændende. Denne spænding drog mig dybere ind i IT verdenen. 
+            Spændingen fik mig til at købe alle dele til en computer og bygge det hele fra bunden. I den sammenhæng fandt jeg også de bedste muligheder, for mine venner og familie, efter deres behov. 
+            Som 19 år gammel, så begyndte jeg at udtænkte min fremtid, og tænkte at IT var noget jeg havde en passion for, og nød at bruge tid på. Derfor søgte jeg ind på en Erhvervsuddannelse 
+            TEC Ballerup i 2016 som Datatekniker med et speciale i programmeringen, som er en videregående uddannelse. Da jeg rundede 20 år gammel så startede jeg på uddannelsen, 
+            hvor jeg begyndte at udforske verden inden for udvikling af programmer og hjemmesider. 
+            Hvor det startede med nogle simple terminal applikationer til noget meget større, og opdagede hvor stor IT verdenen i virkeligheden er. 
+            Som 24 årig har jeg virkelig udviklet mig meget indenfor IT og er begyndt at lege rundt med AI (kunstig Intelligens). I netop dette år af mit liv, 
+            fik jeg et opkald fra en klassekammerat fra min uddannelse på min linje. Jeg blev spurgt om jeg havde lyst til hjælpe med projektet, hvilket jeg svarede ja til. 
+            Dette har så nu startet et stærkt samarbejde, som vil kunne udføre en effektiv service/tjeneste til dig.</p>
+        </div>
+    </div>--%>
 </asp:Content>
